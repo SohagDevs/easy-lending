@@ -30,46 +30,10 @@
 </head>
 
 <body class="docs-page">
+	<?php
+	include_once "navbar.php"; 
+	?>
 	<div class="container">
-		<header class="header fixed-top">
-			<div class="branding docs-branding">
-				<div class="container position-relative py-2">
-					<div class="docs-logo-wrapper">
-						<button id="docs-sidebar-toggler"
-							class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
-							<span></span>
-							<span></span>
-							<span></span>
-						</button>
-						<div class="site-logo"><a class="navbar-brand" href="/"><img class="logo-icon me-2"
-									src="/assets/images/Ready-ecommerce-Black.svg" width="140" alt="logo"></a></div>
-					</div><!--//docs-logo-wrapper-->
-					<div class="docs-top-utilities d-flex justify-content-end">
-						<div class="top-search-box d-none d-lg-flex">
-							<form class="search-form">
-								<input type="text" placeholder="Search the docs..." name="search"
-									class="form-control search-input">
-								<button type="submit" class="btn search-btn" value="Search"><i
-										class="fas fa-search"></i></button>
-							</form>
-						</div>
-
-						<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
-							<!-- <li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li> -->
-							<li class="list-inline-item"><a href="#"><img src="/assets/images/company-logo.png"
-										width="40"></a></li>
-						</ul>
-						<!--//social-list-->
-						<a href="https://codecanyon.net/item/ready-ecommerce-complete-multi-vendor-ecommerce-mobile-app-website-rider-app-with-seller-app/52519302"
-							class="btn btn-primary d-none d-lg-flex" target="_blank">Buy Now</a>
-					</div><!--//docs-top-utilities-->
-				</div><!--//container-->
-			</div><!--//branding-->
-		</header><!--//header-->
-
-
 		<div class="docs-wrapper">
 			<div id="docs-sidebar" class="docs-sidebar">
 				<div class="top-search-box d-lg-none p-3">
